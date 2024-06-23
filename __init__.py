@@ -1,14 +1,7 @@
+from .color_detector_node import Img2ColorNode
 
-
-from .color_detector_node import Img2ColorNode        
-
-__node_name = "Img2Color - Color Palette Extractor"
-NODE_CLASS_MAPPINGS = {
-    "bmy_Img2ColorNode": Img2ColorNode
-}
+NODE_CLASS_MAPPINGS = {"bmy_Img2ColorNode": Img2ColorNode}
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "bmy_Img2ColorNode": __node_name
+    "bmy_Img2ColorNode": "Img2Color - Color Palette Extractor"
 }
-
-# WEB_DIRECTORY = "./web"

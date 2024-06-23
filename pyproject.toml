@@ -1,0 +1,15 @@
+[project]
+name = "img2colors-comfyui-node"
+description = "Extract the most common colors from an image, up to any number. Convert colors to plain English names using various color naming systems."
+version = "1.0.1"
+license = "LICENSE"
+dependencies = ["colornamer>=0.2.4", "scikit_learn>=1.4.0", "webcolors>=1.13"]
+
+[project.urls]
+Repository = "https://github.com/christian-byrne/img2colors-comfyui-node"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "christian-byrne"
+DisplayName = "Img2color - Extract Colors from Image"
+Icon = "https://img.icons8.com/?size=100&id=daqKfa4vY4JR&format=png&color=000000"
