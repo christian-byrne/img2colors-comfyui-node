@@ -16,9 +16,9 @@
 
 ## Installation
 
-- `cd` to the `ComfyUI` directory
+- `cd` to the `ComfyUI/custom_nodes` directory
 - `git clone` this repository
-- `cd` to the `img2colors-palette-detector` directory
+- `cd` to the `img2colors-comfyui-node` directory
 - `pip install -r requirements.txt`
 
 
