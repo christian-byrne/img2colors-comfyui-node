@@ -1,7 +1,7 @@
 [project]
 name = "img2colors-comfyui-node"
 description = "Extract the most common colors from an image, up to any number. Convert colors to plain English names using various color naming systems."
-version = "1.0.2"
+version = "1.0.3"
 license = "LICENSE"
 dependencies = ["colornamer==0.2.3", "scikit_learn>=1.4.0", "webcolors==1.13"]
 
