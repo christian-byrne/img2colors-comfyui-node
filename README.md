@@ -1,7 +1,7 @@
 
 # Img2Color Palette Extractor ComfyUI Node
 
-![alt text](wiki/demo.png)
+![alt text](https://github.com/christian-byrne/img2colors-comfyui-node/blob/demo-files/wiki/demo.png?raw=true)
 
 - Uses KMeans clustering to extract the dominant colors from an image
 - Uses `webcolors` and `colornamer` to get closest matching color names from various color naming systems
@@ -16,6 +16,7 @@
 
 ## Installation
 
+- If you use a virtual environment to run ComfyUI, activate it
 - `cd` to the `ComfyUI/custom_nodes` directory
 - `git clone` this repository
 - `cd` to the `img2colors-comfyui-node` directory
